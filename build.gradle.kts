@@ -106,7 +106,7 @@ allprojects {
     publishing {
         repositories {
             maven {
-                name = "leaf"
+                name = "rkjrw"
                 url = uri(leafMavenPublicUrl)
 
                 credentials.username = System.getenv("REPO_USER")
